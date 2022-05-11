@@ -1,11 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
+import { Box, Center, Divider, Spacer } from '@chakra-ui/react';
+import Sidebar from './components/Sidebar';
+import Layout from './components/Layout';
 
 function App() {
   return (
-    <div className="App">
-     
-    </div>
+    <Box display='flex' color={'white'}>
+     <Sidebar />
+     <Layout />
+    </Box>
   );
 }
 
