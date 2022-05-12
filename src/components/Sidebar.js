@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Sidebar() {
   return (
-    <Box bg="black" w="20vw" h="100vh" display="flex" flexDirection={"column"}>
+    <Box bg="black" w="15vw" h="100vh" display="flex" flexDirection={"column"} position='fixed' >
       <Box h="10vh" p="5">
         <Center>Anand</Center>
       </Box>
