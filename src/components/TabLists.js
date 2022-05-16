@@ -1,4 +1,4 @@
-import { Box, Icon, SimpleGrid, Spacer } from "@chakra-ui/react";
+import { Box, SimpleGrid, Spacer } from "@chakra-ui/react";
 import React from "react";
 import {
   Tabs,
@@ -8,17 +8,7 @@ import {
   TabPanel,
   Button,
 } from "@chakra-ui/react";
-import CardLayout from "./CardLayout";
-import {
-  Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuItemOption,
-  MenuGroup,
-  MenuOptionGroup,
-  MenuDivider,
-} from "@chakra-ui/react";
+import { Menu, MenuButton, MenuList, MenuItem } from "@chakra-ui/react";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import Card from "./Card";
 import property from "../property";
@@ -58,7 +48,7 @@ export default function TabLists(props) {
                 {property.map((cardProps) => {
                   return (
                     <Box>
-                      <Card {...cardProps}/>
+                      <Card {...cardProps} />
                     </Box>
                   );
                 })}
@@ -101,7 +91,7 @@ export default function TabLists(props) {
                     if (cardProps.status === "archived") {
                       return (
                         <Box>
-                          <Card {...cardProps}/>
+                          <Card {...cardProps} />
                         </Box>
                       );
                     }
@@ -110,7 +100,7 @@ export default function TabLists(props) {
               </SimpleGrid>
             </TabPanel>
           </TabPanels>
-        </Tabs>{" "}
+        </Tabs>
       </Box>
     </Box>
   );

@@ -10,7 +10,7 @@ const property = [
       status: "live",
     },
     {
-      // imageUrl: "https://bit.ly/2Z4KKcF",
+      imageUrl: "",
       imageAlt: "image here",
       name: "xyz",
       lastUpdated: "20/10/2021",
@@ -20,7 +20,7 @@ const property = [
       status: "draft",
     },
     {
-      // imageUrl: "https://bit.ly/2Z4KKcF",
+      imageUrl: "",
       imageAlt: "image here",
       name: "xyz",
       lastUpdated: "20/10/2021",
@@ -30,7 +30,7 @@ const property = [
       status: "archived",
     },
     {
-      // imageUrl: "https://bit.ly/2Z4KKcF",
+      imageUrl: "",
       imageAlt: "image here",
       name: "xyz",
       lastUpdated: "20/10/2021",
@@ -40,7 +40,7 @@ const property = [
       status: "live",
     },
     {
-      // imageUrl: "https://bit.ly/2Z4KKcF",
+      imageUrl: "",
       imageAlt: "image here",
       name: "xyz",
       lastUpdated: "20/10/2021",
@@ -50,7 +50,7 @@ const property = [
       status: "draft",
     },
     {
-      // imageUrl: "https://bit.ly/2Z4KKcF",
+      imageUrl: "",
       imageAlt: "image here",
       name: "xyz",
       lastUpdated: "20/10/2021",
@@ -59,6 +59,18 @@ const property = [
       tag: "Marketing",
       status: "live",
     },
+    {
+      imageUrl: "",
+      imageAlt: "image here",
+      name: "xyz",
+      lastUpdated: "20/10/2021",
+      lessons: 1,
+      minutes: 13,
+      tag: "Marketing",
+      status: "live",
+    },
+    
+
     
   ];
 

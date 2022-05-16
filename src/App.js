@@ -1,7 +1,5 @@
 import './App.css';
-import { Box, Center, Divider, Spacer } from '@chakra-ui/react';
-import Sidebar from './components/Sidebar';
-import Layout from './components/Layout';
+import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Chat from './pages/Chat';
 import Company from './pages/Company';
@@ -14,7 +12,7 @@ import Teams from './pages/Teams';
 import Vault from './pages/Vault';
 
 function App() {
-  return (
+  return ( 
     
     <BrowserRouter>
       <Routes>
